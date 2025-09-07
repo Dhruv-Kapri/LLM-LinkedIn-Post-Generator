@@ -1,5 +1,4 @@
 # LinkedIn Post Generator
-
 An AI-powered web application that transforms topics into engaging LinkedIn content using Google's Gemini AI.
 
 ## Features
@@ -11,11 +10,12 @@ An AI-powered web application that transforms topics into engaging LinkedIn cont
 - **Copy-to-Clipboard**: Easy sharing of generated content
 - **Performance Metrics**: Token usage and generation time tracking
 
-## Setup
+---
 
+## Setup
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Dhruv-Kapri/LLM-LinkedIn-Post-Generator.git
    cd linkedin-post-generator
    ```
 
@@ -50,8 +50,9 @@ An AI-powered web application that transforms topics into engaging LinkedIn cont
    npm run build
    ```
 
-## Deployment
+---
 
+## Deployment  
 This app can be deployed to any static hosting provider:
 
 - **Vercel**: Connect your GitHub repo and deploy automatically
@@ -59,12 +60,14 @@ This app can be deployed to any static hosting provider:
 - **Cloudflare Pages**: Connect repository and set build command to `npm run build`
 - **GitHub Pages**: Use GitHub Actions to build and deploy
 
-### Environment Variables for Deployment
+---
 
+### Environment Variables for Deployment  
 Make sure to set the `VITE_GEMINI_API_KEY` environment variable in your hosting provider's dashboard.
 
-## How It Works
+---
 
+## How It Works  
 The AI agent follows a multi-step process:
 
 1. **Topic Analysis**: Analyzes the input topic and plans different post approaches
@@ -73,8 +76,9 @@ The AI agent follows a multi-step process:
 4. **CTA Creation**: Develops compelling calls-to-action
 5. **Quality Control**: Applies filters and finalizes content
 
-## Usage
+---
 
+## Usage  
 1. Enter your topic or idea in the main input field
 2. Optionally customize:
    - **Tone**: Professional, casual, thought leadership, storytelling, or educational
@@ -84,14 +88,16 @@ The AI agent follows a multi-step process:
 3. Click "Generate LinkedIn Posts"
 4. Copy and paste your favorite generated posts to LinkedIn
 
-## Tech Stack
+---
 
+## Tech Stack  
 - **Frontend**: React + TypeScript + Tailwind CSS
 - **Build Tool**: Vite
 - **AI Provider**: Google Gemini 1.5 Flash
 - **Icons**: Lucide React
 - **Styling**: Tailwind CSS with custom design system
 
-## License
+---
 
+## License  
 MIT License - feel free to use this code for your own projects!
